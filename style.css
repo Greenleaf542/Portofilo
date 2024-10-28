@@ -541,6 +541,17 @@ span a
     .portfolio-container{
       grid-template-columns: 1fr;
     }
+      .home-img img
+{
+    
+    background: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--text-color);
+    width: 390px;
+    height: 390px;
+    border-radius: 100%;
+    position: relative;
+    right: -50px;
+}
   }
   @media(max-width:450px){
     html {
