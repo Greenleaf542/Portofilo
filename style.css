@@ -28,9 +28,11 @@ body
     position: sticky;
     top: 0px;
 }
-.logo h1:first-child
+.logo h1 a:first-child
 {
-    color: #000;
+    color: #3e115b;
+    cursor: pointer;
+    text-decoration: none;
 }
 .menu ul
 {
@@ -44,7 +46,7 @@ body
 .menu ul li a
 {
     text-decoration: none;
-    color: #000;
+    color: #3e115b;
 }
 .menu ul li a:hover
 {
@@ -87,4 +89,24 @@ body
 {
     color: #000;
 }
-
+.btn
+{
+    margin-top: 50px;
+}
+.btn button
+{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 0px 30px 0px 0px;
+    width: 20%;
+    height: 40px;
+}
+.btn button a
+{
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    color: #3e115b;
+}
+ 
