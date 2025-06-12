@@ -109,4 +109,88 @@ body
     font-size: 15px;
     color: #3e115b;
 }
- 
+.contact_left
+{
+    width: 40%;
+    padding: 110px 0px 0px 0px;
+    position: relative;
+}
+.contact_left::after
+{
+    content: '';
+    border-color: transparent transparent transparent #fff;
+    border-width: 2px;
+    border-style: solid;
+    height: 450px;
+    top: 70px;
+    left: 490px;
+    position: absolute;
+    opacity: 0.5;
+}
+.contact_left h1
+{
+    font-size: 40px;
+}
+.contact_left p
+{
+    font-family: 12px;
+    padding-top: 10px;
+}
+.contact_left i
+{
+    width: 100%;
+   font-size: 200px;
+    margin-top: 100px;
+}
+.contact_right
+{
+    padding: 110px 0px 0px 290px;
+}
+.contact_right form
+{
+    width: 100%;
+}
+.contact_right form label
+{
+    display: block;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.contact_right form input
+{
+    width: 465px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.contact_right form input,.contact_right form textarea:focus
+{
+    outline: none;
+}
+.contact_right form button
+{
+    width: 30%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #3e115b;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.contact_right form button a
+{
+    text-decoration: none;
+    color: #3e115b;
+}
+.contact_right form textarea
+{
+    width: 465px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 100px;
+}
