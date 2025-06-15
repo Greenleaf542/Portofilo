@@ -88,8 +88,9 @@ body
 .right i
 {
     width: 100%;
-   font-size: 200px;
+    font-size: 200px;
     margin-top: 100px;
+    filter: drop-shadow(1px 1px 20px #1a0329);
 }
 .bg
 {
@@ -126,7 +127,7 @@ body
     background-color: #1a0329;
     width: 20%;
     color: #fff;
-    box-shadow:rgba(243, 243, 243, 0.7);
+    filter: drop-shadow(1px 1px 20px #fff);
 }
 
 .btn a button 
@@ -197,15 +198,15 @@ body
 }
 .contact_right form button
 {
-    width: 30%;
+    width: 40%;
     padding: 10px 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #fff;
     color: #3e115b;
     font-size: 16px;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 #send
 {
@@ -213,10 +214,10 @@ body
 }
 #send:hover
 {
-     width: 30%;
+     width: 40%;
      background-color: #1a0329;
      color: #fff;
-    box-shadow:rgba(243, 243, 243, 0.7);
+     filter: drop-shadow(1px 1px 20px #fff);
 }
 .contact_right form button a
 {
