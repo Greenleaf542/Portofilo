@@ -14,16 +14,17 @@
 <body>
    <div class="background">
     <!-- Header Start -->
-     <header class="Container flex">
+      <header class="Container flex">
         <div class="logo">
             <h1><a href="index.html">Shrawan Thakur</a></h1>
         </div>
+        <span onclick="show()"><i class="fa-solid fa-bars"></i></span>
         <div class="menu">
-            <ul>
+            <ul id="show">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">About Me</a></li>
                 <li><a href="#">Services </a></li>
-                <li><a href="/Contact.html">Contact</a></li>
+                <li><a href="/Project/portfolio/Contact.html">Contact</a></li>
             </ul>
         </div>
      </header>
@@ -47,6 +48,22 @@
         </div>
      </section>
     <!-- Banner End -->
+
+    <!--Javascript Start-->
+    <script>
+    function show()
+    {
+        if(document.getElementById('show').style.width=='0px')
+       {
+        document.getElementById('show').style.width='200px';
+       }
+       else
+       {
+        document.getElementById('show').style.width='0px';
+       }
+    }
+  </script>
+<!--Javascript End-->
      
 </body>
 </html>
