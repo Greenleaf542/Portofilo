@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio || Shrawan thakur</title>
-    <link rel="website icon" type="jpg" href="/me1.jpg">
+     <title>Portfolio || Shrawan thakur</title>
+    <link rel="website icon" type="jpg" href="/Project/portfolio/me.jpg" >
     <link rel="stylesheet" href="/style.css">
      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
@@ -14,7 +14,7 @@
 <body>
    <div class="background">
     <!-- Header Start -->
-      <header class="Container flex">
+     <header class="Container flex">
         <div class="logo">
             <h1><a href="index.html">Shrawan Thakur</a></h1>
         </div>
@@ -45,12 +45,87 @@
         </div>
         <div class="right">
            <i class="fa-solid fa-user-tie"></i>
+            <!-- <img src="/Project/portfolio/me.jpg" alt="me"> -->
         </div>
      </section>
     <!-- Banner End -->
-
-    <!--Javascript Start-->
-    <script>
+    <!--About Start-->
+    <div class="bg1">
+       <section class="Container flex ">
+         <div class="about_left">
+           <i class="fa-solid fa-user-tie"></i>
+        </div>
+        <div class="about_right">
+            <div><h1>About Me</h1></div>
+            <h1>Frontend developer</h1>
+            <p>Hi! I'm shrawan Thakur, a Frontend developer currently pursuring
+              my degree in Bsc.cs(Bachlors of science in computer sccience)
+              at sharda university, I have a strong passion for web development
+              and Iam actively building my skills in HTML, CSS and Javascript.
+            </p>  
+        </div>
+     </section>
+    </div>
+    <!--About End-->
+    <!--Services Start-->
+    <main>
+        <h1>Services</h1>
+        <section class="Container flex">
+          <aside class="group">
+            <i class="fa-solid fa-earth-americas rotate "></i>
+            <h4>Web development</h4>
+            <p>I design and develop fully responsive, user-friendly websites using HTML, CSS, JavaScript, and modern tools. Whether it's a personal site, business page, or a custom web project, I ensure smooth functionality and attractive design to meet your needs.</p>
+            <button>Read More</button>
+          </aside>
+          <aside class="group1">
+            <i class="fa-solid fa-paintbrush paintbrush"></i>
+             <h4>Graphic Design</h4>
+            <p>From logos to social media posts, I create eye-catching and creative designs that communicate your message clearly. I work with tools like Photoshop, Illustrator, and Canva to bring ideas to life and build a strong visual identity for your brand.</p>
+            <button>Read More</button>
+          </aside>
+          <aside class="group2">
+            <i class="fa-solid fa-chart-simple chart-pulse"></i>
+             <h4>Document Typing</h4>
+            <p>Offering fast, neat, and accurate document typing services for all your academic, business, or personal needs. I handle assignments, reports, forms, and more—ensuring proper formatting and error-free content with attention to detail.</p>
+            <button>Read More</button>
+          </aside>
+        </section>
+    </main>
+    <!--Services End-->
+    <!-- Contact Section Start -->
+    <section class="Container flex ">
+        <div class="contact_left">
+            <div><h1>Contact Me</h1></div>
+            <p>If you have any questions or would like to get in touch, please fill out the form below.</p>
+            <i class="fa-solid fa-user-tie"></i>
+            
+        </div>
+        <div class="contact_right">
+           <form action="#" method="post">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" required>
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" placeholder="Your message"></textarea>
+            <a href="index.html"></a><button type="submit" id="send">Send Message<i class="fa-solid fa-arrow-right-to-arc"></i></button></a>
+           </form>
+        </div>
+     </section>
+    <!-- Contact Section End -->
+    <!--Footer Start-->
+    <footer>
+        <div class="Container flex">
+            <secctin class="left">
+                <p>Copyright © 2025 . portfolio | Shrawan thakur</p>
+            </secctin>
+        </div>
+    </footer>
+    <!--Footer End-->
+<!--Javascript Start-->
+<script>
     function show()
     {
         if(document.getElementById('show').style.width=='0px')
@@ -62,8 +137,7 @@
         document.getElementById('show').style.width='0px';
        }
     }
-  </script>
+</script>
 <!--Javascript End-->
-     
 </body>
 </html>
