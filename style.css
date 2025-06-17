@@ -253,3 +253,33 @@ body
 {
     font-size: 15px;
 }
+.Container span
+{
+    display: none;
+}
+@media(min-width:360px) and (max-width:500px)
+{
+    body{overflow-x: hidden;}
+    .flex{flex-direction:column ;}
+    .text{text-align: center;}
+     header{overflow: hidden;}
+    .Container{position: relative;}
+    .Container span{display: block; color: #3e115b; position: absolute; left: 444px; top:10px; cursor: pointer;}
+    .menu{display: block;}
+    .menu ul  
+    {
+         cursor: pointer;
+    }
+    #show
+    {
+        background-color: #fff;
+        width: 0px;
+        height: 400px;
+        padding: 20px 0px;
+        position: fixed;
+        right: 0px;
+        transition: 0.9s;
+
+    }
+}
+
