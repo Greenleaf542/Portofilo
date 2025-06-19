@@ -12,53 +12,106 @@
 </head>
   <body>
    <!--Header Start-->
-   <header class="navbar navbar-expand-lg bg-white">
-    <div class="container d-flex justify-content-between">
-           <a class="navbar-brand" href="index.html"><h1 class="fs-3">Shrawan Thakur</h1></a>
+   <nav class="navbar navbar-expand-lg bg-white">
+    <div class="container">
+    <a class="navbar-brand fs-3 fw-bold" href="index.html">Shrawan Thakur</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    
-
-        <span onclick="show()"><i class="fa-solid fa-bars"></i></span>
-        <div class="menu collapse navbar-collapse" id="navbarSupportedContent">
-            <ul id="show" class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                     <a class="nav-link " aria-current="page" href="index.html">Home</a>
-                </li>
-                  <li class="nav-item">
-                   <a class="nav-link" href="#">About Me</a>
-                </li>
-                  <li class="nav-item">
-                   <a class="nav-link" href="#">Services </a>
-                </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
     </div>
-   </header>
+  </div>
+</nav>
    <!--Header End-->
    <!--Banner Start-->
-   <section class="container d-flex justify-content-between">
-      <div class="text">
-            <h3>Hello, It's Me</h3>
-            <div><h1>Shrawan Thakur </h1></div>
-            <h1>And I'm a Frontend Developer</h1>
+     <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mt-5 col-sm-12">
+        <h6 class="fw-medium">Hello, It's Me</h6>
+        <h1 class="fw-bold fs-1">Shrawan Thakur</h1>
+        <h3 class="fw-medium">And I'm a Frontend Developer</h3>
+        <div class="row">
+          <div class="col-lg-10 fw-normal pt-2">
             <p>I'm a frontend developer skilled in HTML, CSS, SCSS, React and JavaScript, focused on creating responsive, user-friendly designs and eager to learn and grow.</p>
-            <div class="btn1">
-                <a href="/Project/portfolio/Resume.pdf" target="_blank"><button>Download CV &nbsp;<i class="fa-solid fa-arrow-down"></i></button></a>
-               <a href="#"> <button>More &nbsp;<i class="fa-solid fa-arrow-right"></i></button></a>
-            </div>
-            
+            <button type="button" class="btn btn-light">Download CV  &nbsp;<i class="fa-solid fa-arrow-down"></i></button>
+            <button type="button" class="btn btn-light ms-4">More &nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+          </div>
         </div>
-    <div class="right">
-           <!-- <i class="fa-solid fa-user-tie"></i> -->
-            <img src="/12.jpg" alt="">
-        </div>
-   </section>
+      </div>
+      <div class="col-lg-4 mt-5 col-sm-12 bg">
+        <img src="/12.jpg" class=" figure-img img-fluid rounded border border-5" alt="me" >
+      </div>
+    </div>
+   </div>
    <!--Banner End-->
+   <!--About Start-->
+   <div class="bg1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 pt-5 drop">
+           <img src="/me.jpg" class="border1 figure-img img-fluid rounded border border-5" alt="About" >
+        </div>
+        <div class="col-lg-8 pt-5 ps-5">
+         <h1 class="fw-bold fs-1">About Me</h1> 
+        <h3 class="fw-medium">Frontend developer</h3>
+        <p class="fw-normal pt-2">Hi! I'm shrawan Thakur, a Frontend developer currently pursuring my degree in Bsc.cs(Bachlors of science in computer sccience) at sharda university, I have a strong passion for web development and Iam actively building my skills in HTML, CSS and Javascript.
+       </p> </div>
+      </div>
+    </div>
+   </div>
+   <!--About End-->
+   <!--Service Start-->
+   <div class="container">
+    <h5 class="fs-1 fw-bold text-center pt-5 mt-5">Services</h5>
+    <div class="row mt-5">
+      <div class="col-lg-4 col-sm-12 col-md-12">
+        <div class="card">
+          <div class="card-body text-center">
+            <i class="fa-solid fa-earth-americas fs-1 pt-3 pb-4"></i>
+            <h5 class="card-title  fs-4 fw-bold pb-2">Web development</h5>
+            <p class="card-text fw-normal">I design and develop fully responsive, user-friendly websites using HTML, CSS, JavaScript, and modern tools. Whether it's a personal site, business page, or a custom web project, I ensure smooth functionality and attractive design to meet your needs.</p>
+            <button class="btn mt-3 mb-4">Read More</button>
+          </div>
+          </div>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-md-12">
+        <div class="card">
+          <div class="card-body text-center">
+            <i class="fa-solid fa-paintbrush paintbrush fs-1 pt-3 pb-4"></i>
+            <h5 class="card-title  fs-4 fw-bold pb-2">Graphic Design</h5>
+            <p class="card-text fw-normal">From logos to social media posts, I create eye-catching and creative designs that communicate your message clearly. I work with tools like Photoshop, Illustrator, and Canva to bring ideas to life and build a strong visual identity for your brand.</p>
+            <button class="btn mt-3 mb-4">Read More</button>
+          </div>
+          </div>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-md-12">
+        <div class="card">
+          <div class="card-body text-center">
+            <i class="fa-solid fa-chart-simple chart-pulse fs-1 pt-3 pb-4"></i>
+            <h5 class="card-title  fs-4 fw-bold pb-2">Document Typing</h5>
+            <p class="card-text fw-normal">Offering fast, neat, and accurate document typing services for all your academic, business, or personal needs. I handle assignments, reports, forms, and more—ensuring proper formatting and error-free content with attention to detail.</p>
+            <button class="btn mt-3 mb-4">Read More</button>
+          </div>
+          </div>
+      </div>
+      
+    </div>
+   </div>
+   <!--Service End-->
 
 
 
