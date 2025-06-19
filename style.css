@@ -10,6 +10,10 @@ body
         color: #3e115b;
     }
 }
+.color
+{
+    color: #3e115b;
+}
 .border
 {
     border-color: #fff !important;
@@ -32,4 +36,59 @@ body
     background-color: #fff;
     color: #3e115b;
     margin-top: 150px;
+}
+.btn1
+{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 0px 30px 0px 0px;
+    width: 50%;
+    height: 40px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: 0.5s;
+}
+.btn1:hover
+{
+    background-color: #1a0329;
+    width: 50%;
+    color: #fff;
+    filter: drop-shadow(1px 1px 20px #fff);
+}
+.btn2
+{
+     border: none;
+    text-align: center;
+    width: 50%;
+    height: 30px;
+    color: #3e115b;
+    border: 2px solid #3e115b;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+}
+.btn2::before
+{
+     content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0%;
+      height: 100%;
+      background-color: #3e115b;
+      z-index: -1;
+      transition:0.9s  ease-out;
+}
+.btn2:hover::before
+{
+     width: 100%;
+}
+.btn2:hover
+{
+    color: #fff;
 }
