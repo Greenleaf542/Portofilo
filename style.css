@@ -44,7 +44,7 @@ body
 }
 .bg
 {
-      filter: drop-shadow(1px 1px 20px #FFFFF0);
+      filter: drop-shadow(1px 1px 20px #363637);
 }
 .bg1
 {
@@ -129,4 +129,10 @@ body
     background-color: #3e115b;
      color: #FFFFF0;
     filter: drop-shadow(1px 1px 20px #FFFFF0);
+}
+.card{
+    background-color: #000010;
+    border: 20px soild #0000;
+    border-radius: 80px;
+    filter: drop-shadow(0px 0px 20px #000000);
 }
