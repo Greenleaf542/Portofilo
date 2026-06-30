@@ -3,29 +3,34 @@
 body
 {
      /* background-color:#3e115b; */
-     background: #0b0b0c;
+     background: #00000d;
      /* opacity: 50%; */
-     color: #fcf4f4;
+     color: #FFFFF0;
      /* font-family: 'Poppins', sans-serif; */
      font-family:Roboto ;
     ::selection
     {
-        background-color: #fcf4f4;
+        /* background-color: ; */
         color: #101012;
     }
+}
+.boxess{
+    width: 50em;
+    line-height: 1.5em;
+    
 }
  .bg_navbar
 {
   /* background-color: #0d0d0f;    */
-  background-color: #101012;   
+  background-color: #000010;   
 }
 .tx-color
 {
-    color: #fcf4f4;
+    color: #FFFFF0 !important;
 }
 .border
 {
-    border-color: #fcf4f4 !important;
+    border-color: #FFFFF0 !important;
 }
 .drop
 {
@@ -38,17 +43,17 @@ body
 }
 .bg
 {
-      filter: drop-shadow(1px 1px 20px #fcf4f4);
+      filter: drop-shadow(1px 1px 20px #FFFFF0);
 }
 .bg1
 {
-    background-color: #fcf4f4;
-    color: #3e115b;
+    background-color: #000010;
+    color: #FFFFF0;
     margin-top: 150px;
 }
 .bg2 
 {
-    background-color: #fcf4f4;
+    background-color: #FFFFF0;
     height: 300px;
     margin-top: 120px;
 }
@@ -56,7 +61,7 @@ body
 {
     text-align: center;
     padding-top: 10px;
-    border: 2px solid #fcf4f4;
+    border: 2px solid #FFFFF0;
     border-radius: 50%;
    
     width: 50px;
@@ -68,8 +73,8 @@ body
 .btn1:hover
 {
     background-color: #1a0329;
-    color: #fcf4f4;
-    filter: drop-shadow(1px 1px 20px #fcf4f4);
+     color: #FFFFF0;
+    filter: drop-shadow(1px 1px 20px #FFFFF0);
 }
 .btn2
 {
@@ -105,14 +110,14 @@ body
 }
 .btn2:hover
 {
-    color: #fcf4f4;
+    color: #FFFFF0;
 }
 .btn3
 {
     border: none;
     border-radius: 10px;
     text-align: center;
-    background-color: #fcf4f4;
+    background-color: #FFFFF0;
     color: #3e115b;
     width: 30%;
     height: 40px;
@@ -121,6 +126,6 @@ body
 .btn3:hover
 {
     background-color: #3e115b;
-    color: #fcf4f4;
-    filter: drop-shadow(1px 1px 20px #fcf4f4);
+     color: #FFFFF0;
+    filter: drop-shadow(1px 1px 20px #FFFFF0);
 }
