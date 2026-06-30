@@ -29,22 +29,23 @@ body
 {
     color: #FFFFF0 !important;
 }
-.border
-{
-    border-color: #FFFFF0 !important;
-}
+
 .drop
 {
-      filter: drop-shadow(1px 1px 20px #3e115b);
-      
+      filter: drop-shadow(20px 20px 0px #000);
+    
 }
 .border1
 {
-    border-color: #3e115b !important;
+    border-color: #000 !important;
 }
+/* .backk{
+    background-color: #a8a8a5;
+    color: #000010;
+} */
 .bg
 {
-      filter: drop-shadow(1px 1px 20px #363637);
+      filter: drop-shadow(20px 20px 0px #000);
 }
 .bg1
 {
@@ -132,7 +133,7 @@ body
 }
 .card{
     background-color: #000010;
-    border: 20px soild #0000;
-    border-radius: 80px;
-    filter: drop-shadow(0px 0px 20px #000000);
+    border: 0.9px solid #000;
+    border-radius:0px 20px;
+    filter: drop-shadow(20px 20px 0px #000);
 }
