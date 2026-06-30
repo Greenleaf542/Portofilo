@@ -5,13 +5,13 @@ body
      /* background-color:#3e115b; */
      background: #0b0b0c;
      /* opacity: 50%; */
-     color: #ffffff;
+     color: #fcf4f4;
      /* font-family: 'Poppins', sans-serif; */
      font-family:Roboto ;
     ::selection
     {
-        background-color: #fff;
-        color: #3e115b;
+        background-color: #fcf4f4;
+        color: #101012;
     }
 }
  .bg_navbar
@@ -21,11 +21,11 @@ body
 }
 .tx-color
 {
-    color: #ffffff;
+    color: #fcf4f4;
 }
 .border
 {
-    border-color: #fff !important;
+    border-color: #fcf4f4 !important;
 }
 .drop
 {
@@ -38,17 +38,17 @@ body
 }
 .bg
 {
-      filter: drop-shadow(1px 1px 20px #fff);
+      filter: drop-shadow(1px 1px 20px #fcf4f4);
 }
 .bg1
 {
-    background-color: #fff;
+    background-color: #fcf4f4;
     color: #3e115b;
     margin-top: 150px;
 }
 .bg2 
 {
-    background-color: #fff;
+    background-color: #fcf4f4;
     height: 300px;
     margin-top: 120px;
 }
@@ -56,7 +56,7 @@ body
 {
     text-align: center;
     padding-top: 10px;
-    border: 2px solid #fff;
+    border: 2px solid #fcf4f4;
     border-radius: 50%;
    
     width: 50px;
@@ -68,8 +68,8 @@ body
 .btn1:hover
 {
     background-color: #1a0329;
-    color: #fff;
-    filter: drop-shadow(1px 1px 20px #fff);
+    color: #fcf4f4;
+    filter: drop-shadow(1px 1px 20px #fcf4f4);
 }
 .btn2
 {
@@ -105,14 +105,14 @@ body
 }
 .btn2:hover
 {
-    color: #fff;
+    color: #fcf4f4;
 }
 .btn3
 {
     border: none;
     border-radius: 10px;
     text-align: center;
-    background-color: #fff;
+    background-color: #fcf4f4;
     color: #3e115b;
     width: 30%;
     height: 40px;
@@ -121,6 +121,6 @@ body
 .btn3:hover
 {
     background-color: #3e115b;
-    color: #fff;
-    filter: drop-shadow(1px 1px 20px #fff);
+    color: #fcf4f4;
+    filter: drop-shadow(1px 1px 20px #fcf4f4);
 }
