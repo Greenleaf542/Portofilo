@@ -14,6 +14,7 @@ body
         color: #101012;
     }
 }
+
 .boxess{
     width: 50em;
     line-height: 1.5em;
@@ -39,10 +40,10 @@ body
 {
     border-color: #363636 !important;
 }
-/* .backk{
-    background-color: #a8a8a5;
-    color: #000010;
-} */
+.backk{
+    background-color: #DDDDDD;
+    color: #363636;
+}
 .bg
 {
       filter: drop-shadow(20px 20px 0px #363636);
@@ -160,8 +161,17 @@ body
     background-color: #DDDDDD;
     border: none;
     border-radius:0px 20px;
-    filter: drop-shadow(20px 20px 0px #363636);
+    height: 15rem;
+    filter: drop-shadow(5px 5px 0px #363636);
 }
+.card1{
+    background-color: #d3d3d3;
+    color: #DDDDDD;
+    border: none;
+    border-radius: 1rem;
+    height: 15rem;
+}
+
 .form-control{
     background-color: #DDDDDD !important;
     border: none !important;
