@@ -64,7 +64,7 @@ body
 {
     text-align: center;
     padding-top: 10px;
-    border: 2px solid #FFFFF0;
+    border: 2px solid #DDDDDD;
     border-radius: 50%;
    
     width: 50px;
@@ -75,9 +75,9 @@ body
 }
 .btn1:hover
 {
-    background-color: #1a0329;
-     color: #FFFFF0;
-    filter: drop-shadow(1px 1px 20px #FFFFF0);
+    background-color: #DDDDDD;
+     color: #363636;
+    filter: drop-shadow(1px 1px 20px #878787);
 }
 .btn2
 {
