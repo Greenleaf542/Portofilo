@@ -51,8 +51,10 @@ body
 .bg1
 {
     background-color: #DDDDDD;
+    height: 30rem;
     color: #363636;
-    margin-top: 150px;
+    margin-top: 10rem;
+  
 }
 .bg2 
 {
@@ -83,10 +85,10 @@ body
 {
      border: none;
     text-align: center;
-    width: 50%;
-    height: 30px;
-    color: #3e115b;
-    border: 2px solid #3e115b;
+    width: 10rem;
+    height: 3rem;
+    color: #363636;
+    border: 2px solid #363636;
     border-radius: 10px;
     position: relative;
     display: inline-block;
@@ -103,7 +105,7 @@ body
       left: 0;
       width: 0%;
       height: 100%;
-      background-color: #3e115b;
+      background-color: #363636;
       z-index: -1;
       transition:0.9s  ease-out;
 }
@@ -113,7 +115,7 @@ body
 }
 .btn2:hover
 {
-    color: #FFFFF0;
+    color: #DDDDDD;
 }
 .btn3
 {
@@ -150,7 +152,8 @@ body
 }
 .card{
     background-color: #DDDDDD;
-    border: 0.9px solid #363636;
+    border: none;
     border-radius:0px 20px;
     filter: drop-shadow(20px 20px 0px #363636);
 }
+
