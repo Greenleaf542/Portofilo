@@ -122,17 +122,17 @@ body
     border: none;
     border-radius: 10px;
     text-align: center;
-    background-color: #FFFFF0;
-    color: #3e115b;
+    background-color: #DDDDDD;
+    color: #363636;
     width: 30%;
     height: 40px;
     transition:0.9s ;
 }
 .btn3:hover
 {
-    background-color: #3e115b;
-     color: #FFFFF0;
-    filter: drop-shadow(1px 1px 20px #FFFFF0);
+    background-color: #363636;
+     color: #DDDDDD;
+    filter: drop-shadow(0px 0px 20px #363636);
 }
 .btn4
 {
@@ -156,4 +156,9 @@ body
     border-radius:0px 20px;
     filter: drop-shadow(20px 20px 0px #363636);
 }
+.form-control{
+    background-color: #DDDDDD !important;
+    border: none !important;
+}
+.
 
