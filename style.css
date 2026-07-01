@@ -136,7 +136,7 @@ body
 }
 .btn4
 {
-     border: none;
+    border: none;
     text-align: center;
     width: 11rem;
     height: 3rem;
@@ -150,6 +150,12 @@ body
     cursor: pointer;
     z-index: 1;
 }
+.btn4:hover
+{
+    background-color: #363636;
+     color: #DDDDDD;
+    filter: drop-shadow(0px 0px 20px #363636);
+}
 .card{
     background-color: #DDDDDD;
     border: none;
@@ -160,5 +166,7 @@ body
     background-color: #DDDDDD !important;
     border: none !important;
 }
-.
+.pe-8 {
+  padding-right: 5.5rem !important;
+}
 
