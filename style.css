@@ -32,12 +32,12 @@ body
 
 .drop
 {
-      filter: drop-shadow(20px 20px 0px #000);
+      filter: drop-shadow(20px 20px 0px #363636);
     
 }
 .border1
 {
-    border-color: #000 !important;
+    border-color: #363636 !important;
 }
 /* .backk{
     background-color: #a8a8a5;
@@ -45,12 +45,13 @@ body
 } */
 .bg
 {
-      filter: drop-shadow(20px 20px 0px #000);
+      filter: drop-shadow(20px 20px 0px #363636);
+      
 }
 .bg1
 {
-    background-color: #000010;
-    color: #FFFFF0;
+    background-color: #DDDDDD;
+    color: #363636;
     margin-top: 150px;
 }
 .bg2 
@@ -132,8 +133,8 @@ body
     filter: drop-shadow(1px 1px 20px #FFFFF0);
 }
 .card{
-    background-color: #000010;
-    border: 0.9px solid #000;
+    background-color: #DDDDDD;
+    border: 0.9px solid #363636;
     border-radius:0px 20px;
-    filter: drop-shadow(20px 20px 0px #000);
+    filter: drop-shadow(20px 20px 0px #363636);
 }
