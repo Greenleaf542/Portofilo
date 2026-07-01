@@ -22,12 +22,12 @@ body
  .bg_navbar
 {
   /* background-color: #0d0d0f;    */
-  background-color: #000010;   
+  background-color: #DDDDDD;   
 }
 
 .tx-color
 {
-    color: #FFFFF0 !important;
+    color: #363636 !important;
 }
 
 .drop
