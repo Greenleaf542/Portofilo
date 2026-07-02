@@ -13,6 +13,7 @@ body
         /* background-color: ; */
         color: #101012;
     }
+   scroll-behavior: smooth;
 }
 
 .boxess{
@@ -24,6 +25,10 @@ body
 {
   /* background-color: #0d0d0f;    */
   background-color: #DDDDDD;   
+}
+footer{
+    background-color: #DDDDDD;
+    height: 3.5rem;
 }
 
 .tx-color
@@ -165,9 +170,10 @@ body
     filter: drop-shadow(5px 5px 0px #363636);
 }
 .card1{
-    background-color: #d3d3d3;
+    /* background-color: #d3d3d3; */
+    border: 0.01rem solid #363636;
     color: #DDDDDD;
-    border: none;
+    /* border: none; */
     border-radius: 1rem;
     height: 15rem;
 }
@@ -179,4 +185,3 @@ body
 .pe-8 {
   padding-right: 5.5rem !important;
 }
-
